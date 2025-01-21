@@ -1,0 +1,127 @@
+body 
+{
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c4ddee;
+}
+
+.navbar 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #ff6f61, #ff4b72);
+  padding: 15px 50px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+.welcome
+{
+  color: #c4ddee;
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.username
+{
+  color:#c4ddee;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+  font-size: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px; 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h2{
+  text-align: center;
+}
+
+#fridge-list-header,
+#sharable-list-header,
+#friends-list-header
+{
+  font-size: 40px;
+  color: #ff4e6b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+button{
+  margin:auto;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding: 12px 25px;
+  color: #ffffff;
+  background: #ff4e6b;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#add_item
+{
+  display: flex;
+  justify-content: center;
+  padding: 12px 25px;
+  align-items: center;
+  width: 270px;
+  height: 59px;
+  color: #ffffff;
+  background: #ff4e6b;
+  border: none;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 800;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+ul li {
+  background: linear-gradient(135deg, #ff6f61, #ff4b72); 
+  color: #000000;
+  font-size:larger;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li span{
+  width: 60px;
+  text-align: center;
+  border-radius: 10%;
+  background: #8eb9df;
+  float: right;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li span:hover {
+  background-color: #3989d4;
+}

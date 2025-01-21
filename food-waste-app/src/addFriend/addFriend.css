@@ -1,0 +1,96 @@
+.containerFriendAdd{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(135deg, #ff7b7b, #ff4e6b);
+    padding-bottom: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.headerFriendAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.textFriendAdd{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    margin-bottom: 10px;
+}
+
+.inputsFriendAdd{
+    margin-top: 30px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputFriendAdd{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+.inputFriendAdd input{
+    height: 50px;
+    width: 95%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.inputFriendAdd select{
+    height: 50px;
+    width: 95%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.submitContainerFriendAdd{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    padding: 15px 50px;
+    color: #ff4e6b;
+    background: #fff;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: none;
+}
